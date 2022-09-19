@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
+        //확인
 
         btn_register.setOnClickListener {
             val intent = Intent(this, Register::class.java)
